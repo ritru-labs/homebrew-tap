@@ -8,22 +8,22 @@ class Mellow < Formula
   on_macos do
     on_arm do
       url "https://github.com/ritru-labs/mellow/releases/download/v0.3.1/mellow-0.3.1-aarch64-apple-darwin.tar.gz"
-      sha256 "7c047ebfe6e19c819e98999be3a3baec8f69fd6e98d50e7689f24e71005f9166"
+      sha256 "521db19dc084bd89a187c77a2cf74f13e9747ac9d54bfbe87937171536da746c"
     end
     on_intel do
       url "https://github.com/ritru-labs/mellow/releases/download/v0.3.1/mellow-0.3.1-x86_64-apple-darwin.tar.gz"
-      sha256 "c3839b0d0a9943ba81539388c93aafab68aecfc48fcd39a0aca771fdce111abc"
+      sha256 "d99370596b2e645a3b67bff5f8aadf63c2fa43c7a27f5a65f96638a6853c6fa3"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/ritru-labs/mellow/releases/download/v0.3.1/mellow-0.3.1-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "4bd48d1dcca3fb289dd0671742a54d0fba0c102cc698feb1fbcdea2228302179"
+      sha256 "42a6f042515486394f6991dc75e9aaec265a22efe8d679f7a8ffe4bf93d31df2"
     end
     on_intel do
       url "https://github.com/ritru-labs/mellow/releases/download/v0.3.1/mellow-0.3.1-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "27dd436af6ac3a13a729d05e5eb2c08d259357809e4bbc616493cd73a5c82deb"
+      sha256 "49e01a94a9aed1bfa960686ffd11cfd15c0ae3fa8bd6649f9ee282bbdb3c8630"
     end
   end
 
