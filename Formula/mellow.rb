@@ -2,28 +2,28 @@
 class Mellow < Formula
   desc "Calm terminal text editor with no modes to learn"
   homepage "https://github.com/ritru-labs/mellow"
-  version "0.3.0"
+  version "0.3.1"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/ritru-labs/mellow/releases/download/v0.3.0/mellow-0.3.0-aarch64-apple-darwin.tar.gz"
-      sha256 "10c386ddaa9ac53c6cfd261d98edcf57fae081bd925c7e663d51613074490fd0"
+      url "https://github.com/ritru-labs/mellow/releases/download/v0.3.1/mellow-0.3.1-aarch64-apple-darwin.tar.gz"
+      sha256 "7c047ebfe6e19c819e98999be3a3baec8f69fd6e98d50e7689f24e71005f9166"
     end
     on_intel do
-      url "https://github.com/ritru-labs/mellow/releases/download/v0.3.0/mellow-0.3.0-x86_64-apple-darwin.tar.gz"
-      sha256 "9cc9fda03e4dd8a20a60f2553927452ad598e72455ac792cc943297f45d71376"
+      url "https://github.com/ritru-labs/mellow/releases/download/v0.3.1/mellow-0.3.1-x86_64-apple-darwin.tar.gz"
+      sha256 "c3839b0d0a9943ba81539388c93aafab68aecfc48fcd39a0aca771fdce111abc"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/ritru-labs/mellow/releases/download/v0.3.0/mellow-0.3.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "905af95bb657a19509db86899338967e985a6c408a1a4303a469e143f54bd622"
+      url "https://github.com/ritru-labs/mellow/releases/download/v0.3.1/mellow-0.3.1-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "4bd48d1dcca3fb289dd0671742a54d0fba0c102cc698feb1fbcdea2228302179"
     end
     on_intel do
-      url "https://github.com/ritru-labs/mellow/releases/download/v0.3.0/mellow-0.3.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "69288941d5a9058dce6111b97e733e68b2304f7211921336127b73eb109a113f"
+      url "https://github.com/ritru-labs/mellow/releases/download/v0.3.1/mellow-0.3.1-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "27dd436af6ac3a13a729d05e5eb2c08d259357809e4bbc616493cd73a5c82deb"
     end
   end
 
